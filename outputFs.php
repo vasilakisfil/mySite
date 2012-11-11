@@ -21,6 +21,8 @@ function dispHeader($header,$curr=0,$num=1)
 <title>Filippos Vasilakis</title>
 <link href="css/reset.css" rel="stylesheet" media="screen">
 <link href="css/style.css" rel="stylesheet" media="screen">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <!--<link href="css/style2.css" rel="stylesheet" media="screen">-->
 <!--<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />-->
 <!--[if lt IE 9]>
