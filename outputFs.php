@@ -70,12 +70,12 @@ function dispHomeContent()
       	<div class="clearfix says">
 
 		<p class="mcontent" >
-    I am working on a new paper with Prof. 
-    <a href="http://www.cti.gr/RD1/nikole/">S. Nikoletseas</a>
-    again in the field of WSNs. Specifically, our aim is to contrast a WSN
+    Currrently, I am working on a new paper with Prof. 
+    <a href="http://www.cti.gr/RD1/nikole/">S. Nikoletseas</a> in the field of WSNs.
+    Specifically, our aim is to contrast a WSN
     employing both data mules (mobile relays) and mobile rechargers with a WSN
     equipped with a single mobile multi-entity which provides recharging and data muling on
-    demand. Our goal is again to provide a rigorous analysis of the performance in each scenario
+    demand. Our goal is, again, to provide a rigorous analysis of the performance in each scenario
     and an adaptive algorithm that understands the underlying routing protocol and adjusts itself.
 		</p>
 
