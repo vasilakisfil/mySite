@@ -493,7 +493,7 @@ function dispContContent($report=NULL)
 
 
       <header>
-      <div class="wrapper">
+      <div id="reportPoint" class="wrapper">
         <h2>Get in Touch</h2>
             <ul class="social">
             	<li class="website" title="website"><a href="http://filippos.vasilak.is">Website</a></li>
@@ -506,12 +506,13 @@ function dispContContent($report=NULL)
       </header>
 
       
-      <form action="#" method="post">
+      <form action="index.php" method="post">
       	<p><input type="text" name="name"  value="Your Name" id="name" onblur="if (this.value == ''){this.value = 'Your Name'; }" onfocus="if (this.value == 'Your Name') {this.value = '';}" /></p>
         <p><input type="text" name="email" value="Your Email" id="email"  onblur="if (this.value == ''){this.value = 'Your Email'; }" onfocus="if (this.value == 'Your Email') {this.value = '';}" /></p>
         <p><input type="text" name="url" value="Your Site" id="url" onblur="if (this.value == ''){this.value = 'Your Site'; }" onfocus="if (this.value == 'Your Site') {this.value = '';}" /></p>
-        <p><textarea cols="20" rows="7" name="message" id="message" onblur="if (this.value == ''){this.value = 'Your Message'; }" onfocus="if (this.value == 'Your Message') {this.value = '';}" >Your Message</textarea></p>
-        <p><input type="submit" name="submit" value="Send Message" class="button" /></p>
+        <p><textarea rows="7" name="message" id="message" onblur="if (this.value == ''){this.value = 'Your Message'; }" onfocus="if (this.value == 'Your Message') {this.value = '';}" >Your Message</textarea></p>
+        <p><input type="submit" name="submit" value="Send Message" class="button" />
+        <span id="report">&nbsp;<?php if($report!=NULL) echo "$report"; ?></span> </p>
       </form>
     </section> <!--end section-->
 
