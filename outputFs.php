@@ -217,10 +217,11 @@ function dispPubContent()
 
     <div>
     <ul>
-    <li class="type"><span class="type_span">Bachelor's Thesis</span>
+    <li class="type"><span class="type_span">Diploma's Thesis</span>
       <ul>
         <li><span class="publication"><a href="publications/undergraduate_thesis.pdf"> Efficient Energy Management in Wireless
-          Rechargeable Sensor Networks</a> (abstract available in english)</span> <br />
+          Rechargeable Sensor Networks</a></span> <br />
+          <span class="pubNames">(<a href="publications/abstract_thesis.pdf">abstract</a> available in english)</span> <br />
           <span class="pubNames">Filippos Vasilakis</span> <br />
           <span class="pubPlace">Computer Engineering and Informatics Department, University of Patras, Greece, 2012</span>
         </li>
@@ -287,12 +288,12 @@ function dispAboutContent()
       <figure class="marginRight"><img src="images/me.jpg" alt="Image" width="240px" /></figure>
         <p class="info">I am a graduate student of <a href="http://www.ceid.upatras.gr/">Computer Engineering and Informatics</a>
                             (CEID) of University of Patras. I have
-                            just finished my <a href="http://filippos.vasilak.is/files/thesis.pdf">thesis</a> supervised by
+                            just finished my <a href="files/thesis.pdf">thesis</a> supervised by
                             Professor <a href="http://www.cti.gr/RD1/nikole/">S. Nikoletseas</a> in wireless rechargeable sensor
                             networks. My
                             work involved theoretical research of graph and probability models (my favourite) in order to achieve
                             novel results in the area of sensor networks that exploit mobile rechargers. A
-                            <a href="http://filippos.vasilak.is/files/manuscript.pdf">part</a> of my thesis was
+                            <a href="files/manuscript.pdf">part</a> of my thesis was
                             appeared as a publication in <a href="http://mswimconf.com/2012/">MSWIM 2012</a> conference.</p>
 
 
