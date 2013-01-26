@@ -44,7 +44,7 @@ function dispHeader($header,$curr=0,$num=1)
         <li id="nav-4"><a href="#about">About</a></li>
         <li id="nav-5"><a href="#contact">Contact</a></li>
         <li id="nav-6"><a href="#stuff">Various Stuff</a></li>
-        <li><a href="http://filippos.vasilak.is/blog/">Blog</a></li>
+        <li><a href="http://blog.filippos.vasilak.is">Blog</a></li>
       </ul>
       <div class="bg_bottom"></div>
     </nav>
