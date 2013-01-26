@@ -23,6 +23,7 @@ function dispHeader($header,$curr=0,$num=1)
 <link href="css/style.css" rel="stylesheet" media="screen">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<script type="text/javascript" src="functions.js"></script>
 <!--<link href="css/style2.css" rel="stylesheet" media="screen">-->
 <!--<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />-->
 <!--[if lt IE 9]>
@@ -355,29 +356,30 @@ function dispAboutContent()
 
         <h3>Technical Skills</h3>
 
-        <table border="0" class="info">
+        <table class="info">
           <tr>
-            <td class="maint" style="float: right; text-align: right;">Programming Languages:&nbsp;&nbsp;&nbsp;</th>
+            <td class="maint" style="float: right; text-align: right;">Programming Languages:</th>
             <td class="detailst">C, C++, Java, Ruby, Matlab, ARMv7 Assembly, Bash scripting</th>
           </tr>
           <tr>
-            <td class="maint" style="float: right; text-align: right;">Frameworks:&nbsp;&nbsp;&nbsp;</td>
+            <td class="maint" style="float: right; text-align: right;">Frameworks:</td>
             <td class="detailst">POSIX, OpenMP, Qt, Boost, GNU GMP, JNI, Android NDK, SDK, BlueZ, Wiselib</td>
           </tr>
           <tr>
-            <td class="maint" style="float: right; text-align: right;">Web Development:&nbsp;&nbsp;&nbsp;</td>
-            <td class="detailst">HTML/XHTML, CSS, Javascript, Ruby on Rails, PHP, MySQL, Ajax, XML, Google Maps API, Apache Server</td>
+            <td class="maint" style="float: right; text-align: right;">Web Development:</td>
+            <td class="detailst">HTML/XHTML, CSS, Javascript, 
+            Ruby on Rails, PHP, MySQL, Ajax, XML, Google Maps API, Apache Server</td>
           </tr>
           <tr>
-            <td class="maint" style="float: right; text-align: right;">Testing:&nbsp;&nbsp;&nbsp;</td>
+            <td class="maint" style="float: right; text-align: right;">Testing:</td>
             <td class="detailst">Rspec, Capybara and lately Jasmine</td>
           </tr>
           <tr>
-            <td class="maint" style="float: right; text-align: right;">Versioning Systems:&nbsp;&nbsp;&nbsp;</td>
+            <td class="maint" style="float: right; text-align: right;">Versioning Systems:</td>
             <td class="detailst">Git, Mercurial, Subversion</td>
           </tr>
           <tr>
-            <td class="maint" style="float: right; text-align: right;">Utilities:&nbsp;&nbsp;&nbsp;</td>
+            <td class="maint" style="float: right; text-align: right;">Utilities:</td>
             <td class="detailst">Vim, GNU Make, GNU Bison, GNU Flex, TeX, <span class="texhtml" style="font-family:
                  'CMU Serif',
                  'Times New Roman', Times, 'Nimbus Roman No9 L', serif;">L<span style="text-transform: uppercase; font-size: 70%;
@@ -386,7 +388,7 @@ function dispAboutContent()
                 margin-right: -0.125em;">e</span>X</span></td>
           </tr>
           <tr>
-            <td class="maint" style="float: right; text-align: right;">Operating Systems:&nbsp;&nbsp;&nbsp;</td>
+            <td class="maint" style="float: right; text-align: right;">Operating Systems:</td>
             <td class="detailst">Linux/Unix, Windows</td>
           </tr>
         </table>
@@ -508,11 +510,11 @@ function dispContContent($report=NULL)
 
       
       <form action="index.php" method="post">
-      	<p><input type="text" name="name"  value="Your Name" id="name" onblur="if (this.value == ''){this.value = 'Your Name'; }" onfocus="if (this.value == 'Your Name') {this.value = '';}" /></p>
-        <p><input type="text" name="email" value="Your Email" id="email"  onblur="if (this.value == ''){this.value = 'Your Email'; }" onfocus="if (this.value == 'Your Email') {this.value = '';}" /></p>
+      	<p><input type="text" name="name"  value="Your Name" id="name" onblur="if (this.value == ''){this.value = 'Your Name'; }" onfocus="if (this.value == 'Your Name') {this.value = '';}" onkeyup="suggestEmail();" /></p>
+        <p><input type="text" name="email" value="Your Email" id="email"  onblur="if (this.value == ''){this.value = 'Your Email'; }" onfocus="if (this.value == 'Your Email') {this.value = '';}" onkeyup="suggestEmail();" /></p>
         <p><input type="text" name="url" value="Your Site" id="url" onblur="if (this.value == ''){this.value = 'Your Site'; }" onfocus="if (this.value == 'Your Site') {this.value = '';}" /></p>
-        <p><textarea rows="7" name="message" id="message" onblur="if (this.value == ''){this.value = 'Your Message'; }" onfocus="if (this.value == 'Your Message') {this.value = '';}" >Your Message</textarea></p>
-        <p><input type="submit" name="submit" value="Send Message" class="button" />
+        <p><textarea rows="7" name="message" id="message" onblur="if (this.value == ''){this.value = 'Your Message'; }" onfocus="if (this.value == 'Your Message') {this.value = '';}" onkeyup="suggestEmail();" >Your Message</textarea></p>
+        <p><input type="submit" name="submit" id="button-log" value="Send Message" disabled="disabled" class="button" onkeyup="suggestEmail();" />
         <span id="report">&nbsp;<?php if($report!=NULL) echo "$report"; ?></span> </p>
       </form>
     </section> <!--end section-->

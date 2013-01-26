@@ -470,6 +470,13 @@ form  .button:hover{
 	text-shadow: #7d271a 0px 1px 0px;
 }
 
+/* table */
+.detailst {
+    border-left:solid;
+    border-width: 0 0 0 5px;
+    border-color:white;
+}
+
 
 /*h2{
 	font-family: "LeagueGothicRegular", Arial, Helvetica, sans-serif;

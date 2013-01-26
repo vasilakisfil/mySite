@@ -4,7 +4,7 @@ function suggestEmail()
 	var email = document.getElementById('email');
 	var report = document.getElementById("report");
 	var name = document.getElementById("name");
-	var text = document.getElementById("text");
+	var text = document.getElementById("message");
 	var flag=0;
 	var permit=0;
 	var enabled=0;
