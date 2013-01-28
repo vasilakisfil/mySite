@@ -249,7 +249,7 @@ function dispPubContent()
     </li>
     <li class="type"><span class="type_span">Talks</span>
       <ul>
-        <li><span class="publication">New challenges that emerge from Wireless Recharging Sensor Networks</span> <br />
+        <li><span class="publication"><a href="publications/Challenges_in_WRSNs.pdf">New challenges that emerge from Wireless Recharging Sensor Networks</a></span> <br />
           <span class="pubNames">Filippos Vasilakis</span> <br />
           <span class="pubPlace">Computer Engineering and Informatics Department, University of Patras, Greece, February 2012</span>
         </li>
