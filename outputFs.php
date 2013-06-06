@@ -140,6 +140,10 @@ function dispWorkContent()
         <br />
 		<li id="orange"><span id="orange_span">Medium Scale Projects</span>
 			<ul class="parP">
+			<li><span class="mainP">Development of <a href="http://orthodontikos-ilioupoli.gr">orthodontics website</a>
+			    (HTML5, CSS, Javascript, Google Maps API, Twitter Bootstrap, Git)</span><br />
+			   I hate plain HTML but unfortunately the free cloud packet in the hosting server did not provide PHP rendering...
+			</li>
 			<li><span class="mainP">Implementation of parallel versions of <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life" class="projLinks">Conway's Game of Life</a> (C, Pthreads, OpenMP)</span><br />
 				It has been implemented in phtreads and OpenMP.I have to admit that OpenMP is pretty fast for simple jobs.Makefile is included.  <a href="src/GameOfLife.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
 			</li>
