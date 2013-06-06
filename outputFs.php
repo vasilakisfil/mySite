@@ -548,6 +548,12 @@ function dispStuffContent()
 
 
       <ul>
+
+        <li><a href="https://citizenweb.is/vox/2013/02/what-is-free-software-and-why-do-i-give-a-damn/">
+            <span class="type_span2">What is Free Software, and Why Do I Give a Damn?<span></a>
+            <p class="info"></p>
+        </li>
+
         <li><a href="http://gizmodo.com/5910223/how-yahoo-killed-flickr-and-lost-the-internet"><span class="type_span2">
             How Yahoo Killed Flickr and Lost the Internet</span></a><br />
           <p class="info"></p>
