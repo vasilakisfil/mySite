@@ -519,7 +519,7 @@ function dispContContent($report=NULL)
             	<li class="website" title="website"><a href="http://filippos.vasilak.is">Website</a></li>
                 <li class="github" title="github"><a href="https://github.com/vasilakis">Github</a></li>
                 <li class="bitbucket" title="bitbucket"><a href="https://bitbucket.org/vasilakis">BitBucket</a></li>
-                <li class="blog" title="blog"><a href="http://filippos.vasilak.is/blog">Blog</a></li>
+                <li class="blog" title="blog"><a href="http://blog.filippos.vasilak.is">Blog</a></li>
                 <li class="email" title="email"><a href="mailto:vasilakisfil{removethis}@gmail.com">email</a></li>
             </ul>
        </div>
