@@ -18,7 +18,7 @@ function dispHeader($header,$curr=0,$num=1)
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Filippos Vasilakis</title>
+<title>Filippos (FiL) Vasilakis</title>
 <link href="css/reset.css" rel="stylesheet" media="screen">
 <link href="css/style.css" rel="stylesheet" media="screen">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
