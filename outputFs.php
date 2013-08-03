@@ -553,7 +553,7 @@ function dispStuffContent()
 
       <ul>
 
-        <li><a href="https://citizenweb.is/vox/2013/02/what-is-free-software-and-why-do-i-give-a-damn/">
+        <li><a href="https://citizenweb.is/guide/intro/1-switch">
             <span class="type_span2">What is Free Software, and Why Do I Give a Damn?<span></a>
             <p class="info"></p>
         </li>
