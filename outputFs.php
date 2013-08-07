@@ -49,7 +49,9 @@ function dispHeader($header,$curr=0,$num=1)
 <div id="page">
   <aside id="sidebar">
     <nav><a class="logo" href="#top" id="nav-logo">
-      <span>Personal Webpage Of</span>Filippos Vasilakis</a>
+      <span id="logo-small">Personal Webpage Of</span>
+      <span id="logo-name">Filippos Vasilakis</span>
+      <div id="logo-fil">( F i L )</div></a>
       <ul>
      	<li class="active" id="nav-1"><a href="#home">Home</a></li>
         <li id="nav-2"><a href="#work">Projects</a></li>
