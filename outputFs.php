@@ -516,10 +516,10 @@ function dispContContent($report=NULL)
       <div id="reportPoint" class="wrapper">
         <h2>Get in Touch</h2>
             <ul class="social">
-            	<li class="website" title="website"><a href="http://filippos.vasilak.is">Website</a></li>
+            	<li class="website" title="website"><a href="http://fil.vasilak.is">Website</a></li>
                 <li class="github" title="github"><a href="https://github.com/vasilakis">Github</a></li>
                 <li class="bitbucket" title="bitbucket"><a href="https://bitbucket.org/vasilakis">BitBucket</a></li>
-                <li class="blog" title="blog"><a href="http://blog.filippos.vasilak.is">Blog</a></li>
+                <li class="blog" title="blog"><a href="http://blog.fil.vasilak.is">Blog</a></li>
                 <li class="email" title="email"><a href="mailto:vasilakisfil{removethis}@gmail.com">email</a></li>
             </ul>
        </div>
