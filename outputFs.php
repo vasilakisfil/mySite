@@ -23,16 +23,6 @@ function dispHeader($header,$curr=0,$num=1)
 <link href="css/style.css" rel="stylesheet" media="screen">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-44681025-1', 'vasilak.is');
-  ga('send', 'pageview');
-
-</script>
 <script type="text/javascript" src="functions.js"></script>
 <!--<link href="css/style2.css" rel="stylesheet" media="screen">-->
 <!--<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />-->
@@ -43,6 +33,16 @@ function dispHeader($header,$curr=0,$num=1)
 </head>
 
 <body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44681025-1', 'vasilak.is');
+  ga('send', 'pageview');
+
+</script>
 <div id="page">
   <aside id="sidebar">
     <nav><a class="logo" href="#top" id="nav-logo">
