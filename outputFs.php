@@ -50,7 +50,7 @@ function dispHeader($header,$curr=0,$num=1)
       <span id="logo-name">Filippos Vasilakis</span>
       <div id="logo-fil">( F i L )</div></a>
       <ul>
-     	<li class="active" id="nav-1"><a href="#home">Home</a></li>
+      <li class="active" id="nav-1"><a href="#home">Home</a></li>
         <li id="nav-2"><a href="#work">Projects</a></li>
         <li id="nav-3"><a href="#publications">Publications</a></li>
         <li id="nav-4"><a href="#about">About</a></li>
@@ -62,7 +62,7 @@ function dispHeader($header,$curr=0,$num=1)
     </nav>
   </aside>
   <div id="main-content">
-  	<section id="top"></section><!-- do not remove ;)-->
+    <section id="top"></section><!-- do not remove ;)-->
 <?php
 }
 
@@ -77,20 +77,20 @@ function dispHomeContent()
       <header class="divider intro-text wrapper">
         <h2>Recent Projects and Research </h2>
       </header>
-      
+
       <div class="recent_work">
 
-      	<div class="clearfix says">
+        <div class="clearfix says">
 
     <p class="mcontent" >
       Currently I am doing my masters in Network Services and Systems in KTH and
-      working as a web developer in <a href="http:www.kollegorna.se">Kollegorna</a> building some very interesting apps.
+      working as a web developer in <a href="http://www.kollegorna.se">Kollegorna</a> building some very interesting apps.
       More to come soon ;)
     </p>
 
 <br /><br /><br /><br /><br /><br />
     </section> <!--end section-->
-    
+
 <?php
 }
 
@@ -104,96 +104,96 @@ function dispWorkContent()
       <div id="mainDoc">
       <ul>
        <li id="red"><span id="red_span">Large Scale Projects</span>
-	    <ul class="parP">
-		 <li><span class="mainP">Development of a web application for house advertising, with management capabilities for Admins and users (HTML, CSS, Javascript, PHP, MySQL, AJAX, XML,Google Maps API, Apache Server)</span><br/>Actually, it is a complete site for classifieds which includes adminstration capabilities for users,ads and admin.It was developed with svn revision control. <a href="src/classifieds.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a> 
-			<a href="http://vasilakisfil.dyndns.org/svn/earth/"><img src="images/svn.gif" style="width: 11px; height: 11px;" alt="image" /></a> <a href="http://vasilakisfil.dyndns.org/earth" class="links">link</a>
-		 </li>
-		 <li><span class="mainP">Design and implementation of a <a href="http://en.wikipedia.org/wiki/File_Allocation_Table" class="projLinks">FAT</a> File System and Shell (C, Posix API)</span> <br/>
-			Here it is a virtual filesystem(since it use the existing filesystem).It compiles in any POSIX complient OS.It includes some
-			low level C, but also a shell in which various commands can be excecuted.Press -help for more info.Makefile is included. <a href="src/FATFS.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-		 </li>
+      <ul class="parP">
+     <li><span class="mainP">Development of a web application for house advertising, with management capabilities for Admins and users (HTML, CSS, Javascript, PHP, MySQL, AJAX, XML,Google Maps API, Apache Server)</span><br/>Actually, it is a complete site for classifieds which includes adminstration capabilities for users,ads and admin.It was developed with svn revision control. <a href="src/classifieds.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a> 
+      <a href="http://vasilakisfil.dyndns.org/svn/earth/"><img src="images/svn.gif" style="width: 11px; height: 11px;" alt="image" /></a> <a href="http://vasilakisfil.dyndns.org/earth" class="links">link</a>
+     </li>
+     <li><span class="mainP">Design and implementation of a <a href="http://en.wikipedia.org/wiki/File_Allocation_Table" class="projLinks">FAT</a> File System and Shell (C, Posix API)</span> <br/>
+      Here it is a virtual filesystem(since it use the existing filesystem).It compiles in any POSIX complient OS.It includes some
+      low level C, but also a shell in which various commands can be excecuted.Press -help for more info.Makefile is included. <a href="src/FATFS.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+     </li>
         </ul>
        </li>
         <br />
-		<li id="orange"><span id="orange_span">Medium Scale Projects</span>
-			<ul class="parP">
-			<li><span class="mainP">Development of <a href="http://orthodontikos-ilioupoli.gr">orthodontics website</a>
-			    (HTML5, CSS, Javascript, Google Maps API, Twitter Bootstrap, Git)</span><br />
-			   I hate plain HTML but unfortunately the free cloud packet in the hosting server did not provide PHP rendering...
-			</li>
-			<li><span class="mainP">Implementation of parallel versions of <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life" class="projLinks">Conway's Game of Life</a> (C, Pthreads, OpenMP)</span><br />
-				It has been implemented in phtreads and OpenMP.I have to admit that OpenMP is pretty fast for simple jobs.Makefile is included.  <a href="src/GameOfLife.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Parallel implementations of the <a href="http://en.wikipedia.org/wiki/Jacobi_method" class="projLinks">Jacobi algorithm</a> using OpenGL as graphic environement.(C, Linux IPC, PThreads, OpenMP)</span><br />
-				This program calculates the tempreture of a 3dimensional object through the Jacobi algorithm method.It's nice to see the interpolation in
-				real time.Also you can interact with the cube to move it.OpenGL environment was developed by K. Karantasis.I only did some encancements
-				and I made the parallelised jacobi method with Pthreads and OpenMP.I have to mention though that from my experience OpenGL requires
-				a very good knowledge of maths and geometry.  <a href="src/JacobiHeat.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Implementation of a lexical analysis and grammar parsing tools.(C, Flex, Bison)</span><br />
-				It's a compiler for html!Heh actually, it dosen't create an executable file but instead it only checks for lexical or gramatical errors 
-				on a given html file. <a href="src/HTMLCompiler.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Implementation of <a href="http://en.wikipedia.org/wiki/Miller–Rabin_primality_test" class="projLinks">Miller-Rabin priminality test</a> priminality test for arbitrary-precision numbers (C++, GNU GMP)</span><br/>
-				It is capable of finding a prime number of 1500 digits in about 15 seconds.It also can check a 10000 digits number if
-				it is prime in less than 5 seconds.What you probably know is that Miller-Rabin algorithm is a probalistic algorithm which relies in Fermat's little theorem.
-				What you don't know is that in its original version proposed from Gary L. Miller, is deterministic, but the determinism relies on the unproven
-				generalized Riemann hypothesis.Michael O. Rabin modified it to obtain an unconditional probabilistic algorithm, that's why it is called
-				the Miller-Rabin algorithm.The arbitrary precision arithmetic was achieved using GNU GMP library. As with every GNU tool it has
-				a complete and very helpful manual. If I had time I would also add GUI with Qt.
-				It was developed with mercurial revision control system. Makefile is included.  <a href="src/millerrabin-algorithm-in-cplusplus.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Design and implementation of a client-server model through Posix using Linux Processes &amp; Threads.(C, Posix API)</span><br />
-				Yet another client server communication.There two implementations:the first was developed throughIPC(InterProcess Comunication)
-				and the second through pthreads.It was developed with mercurial revision control system.  <a href="src/ClientServerComm.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Implementation of <a href="http://en.wikipedia.org/wiki/Port_knocking" class="projLinks">port knocking</a>(C, Linux Sockets)</span><br />
-				A client server program in which the client checks if the given ports are open in the server, a method which widely known
-				as port knocking.Unfortunately comments are in greek.It was developed with mercurial revision control system. Makefile is included.  <a href="src/PortKnocking.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Implementation of parallel Versions of <a href="http://en.wikipedia.org/wiki/Prim's_algorithm" class="projLinks">Prim algorithm</a>(rather difficult !) (C, Pthreads, OpenMP)</span><br />
-				Prim's algorithm is an algorithm that finds a minimum spanning tree for a connected weighted undirected graph.This version is
-				a parallelised one.It is staggering to parallelise this algorithm because it works in "phases" and every phase needs the data
-				of the previous phase.The parallelism lies on the greeiness of the algorithm.You can find a similar paper here.It was developed with mercurial revision control system.
-				Makefile is included.  <a href="src/PrimAlgo.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Design and Development of a Train Tickets Booking Software.(C++)</span><br />
-				A fully capable train booking system written in C++.I codeveloped it with my brother. <a href="src/BookingSystem.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Design and implementation of <a href="http://en.wikipedia.org/wiki/semaphores" class="projLinks">semaphores</a> and <a href="http://en.wikipedia.org/wiki/Readers-writer_lock" class="projLinks">readers-writers locks </a>(C, Posix API)</span><br />
-				A mutual exclusion(mutex or write lock or semaphore) is a protected variable or abstract data type used in concurrent programming that 
-				provides a simple but useful abstraction for controlling access by multiple processes to a common resource in a parallel programming environment.
-				Semaphores are a useful tool in the prevention of race conditions; however, their use is by no means a guarantee that a program is free from 
-				race conditions or even deadlocks.One classic example is the semaphores are used is in the producer-consumer problem. They were invented by Edsger W. Dijkstra.<br />
-				On the other hand readers/writers locks is a similar concept that non only does it solve the producer-consumer problem but also adds the possiblity 
-				of priority and avoids starvations(for example writers starvation in readers/writer problem).In most of the times priority locks are implemented 
-				on top of semaphores.		
-				<a href="src/Mutexes.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-	
-			</ul>
-		</li>
+    <li id="orange"><span id="orange_span">Medium Scale Projects</span>
+      <ul class="parP">
+      <li><span class="mainP">Development of <a href="http://orthodontikos-ilioupoli.gr">orthodontics website</a>
+          (HTML5, CSS, Javascript, Google Maps API, Twitter Bootstrap, Git)</span><br />
+         I hate plain HTML but unfortunately the free cloud packet in the hosting server did not provide PHP rendering...
+      </li>
+      <li><span class="mainP">Implementation of parallel versions of <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life" class="projLinks">Conway's Game of Life</a> (C, Pthreads, OpenMP)</span><br />
+        It has been implemented in phtreads and OpenMP.I have to admit that OpenMP is pretty fast for simple jobs.Makefile is included.  <a href="src/GameOfLife.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Parallel implementations of the <a href="http://en.wikipedia.org/wiki/Jacobi_method" class="projLinks">Jacobi algorithm</a> using OpenGL as graphic environement.(C, Linux IPC, PThreads, OpenMP)</span><br />
+        This program calculates the tempreture of a 3dimensional object through the Jacobi algorithm method.It's nice to see the interpolation in
+        real time.Also you can interact with the cube to move it.OpenGL environment was developed by K. Karantasis.I only did some encancements
+        and I made the parallelised jacobi method with Pthreads and OpenMP.I have to mention though that from my experience OpenGL requires
+        a very good knowledge of maths and geometry.  <a href="src/JacobiHeat.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Implementation of a lexical analysis and grammar parsing tools.(C, Flex, Bison)</span><br />
+        It's a compiler for html!Heh actually, it dosen't create an executable file but instead it only checks for lexical or gramatical errors 
+        on a given html file. <a href="src/HTMLCompiler.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Implementation of <a href="http://en.wikipedia.org/wiki/Miller–Rabin_primality_test" class="projLinks">Miller-Rabin priminality test</a> priminality test for arbitrary-precision numbers (C++, GNU GMP)</span><br/>
+        It is capable of finding a prime number of 1500 digits in about 15 seconds.It also can check a 10000 digits number if
+        it is prime in less than 5 seconds.What you probably know is that Miller-Rabin algorithm is a probalistic algorithm which relies in Fermat's little theorem.
+        What you don't know is that in its original version proposed from Gary L. Miller, is deterministic, but the determinism relies on the unproven
+        generalized Riemann hypothesis.Michael O. Rabin modified it to obtain an unconditional probabilistic algorithm, that's why it is called
+        the Miller-Rabin algorithm.The arbitrary precision arithmetic was achieved using GNU GMP library. As with every GNU tool it has
+        a complete and very helpful manual. If I had time I would also add GUI with Qt.
+        It was developed with mercurial revision control system. Makefile is included.  <a href="src/millerrabin-algorithm-in-cplusplus.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Design and implementation of a client-server model through Posix using Linux Processes &amp; Threads.(C, Posix API)</span><br />
+        Yet another client server communication.There two implementations:the first was developed throughIPC(InterProcess Comunication)
+        and the second through pthreads.It was developed with mercurial revision control system.  <a href="src/ClientServerComm.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Implementation of <a href="http://en.wikipedia.org/wiki/Port_knocking" class="projLinks">port knocking</a>(C, Linux Sockets)</span><br />
+        A client server program in which the client checks if the given ports are open in the server, a method which widely known
+        as port knocking.Unfortunately comments are in greek.It was developed with mercurial revision control system. Makefile is included.  <a href="src/PortKnocking.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Implementation of parallel Versions of <a href="http://en.wikipedia.org/wiki/Prim's_algorithm" class="projLinks">Prim algorithm</a>(rather difficult !) (C, Pthreads, OpenMP)</span><br />
+        Prim's algorithm is an algorithm that finds a minimum spanning tree for a connected weighted undirected graph.This version is
+        a parallelised one.It is staggering to parallelise this algorithm because it works in "phases" and every phase needs the data
+        of the previous phase.The parallelism lies on the greeiness of the algorithm.You can find a similar paper here.It was developed with mercurial revision control system.
+        Makefile is included.  <a href="src/PrimAlgo.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Design and Development of a Train Tickets Booking Software.(C++)</span><br />
+        A fully capable train booking system written in C++.I codeveloped it with my brother. <a href="src/BookingSystem.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Design and implementation of <a href="http://en.wikipedia.org/wiki/semaphores" class="projLinks">semaphores</a> and <a href="http://en.wikipedia.org/wiki/Readers-writer_lock" class="projLinks">readers-writers locks </a>(C, Posix API)</span><br />
+        A mutual exclusion(mutex or write lock or semaphore) is a protected variable or abstract data type used in concurrent programming that 
+        provides a simple but useful abstraction for controlling access by multiple processes to a common resource in a parallel programming environment.
+        Semaphores are a useful tool in the prevention of race conditions; however, their use is by no means a guarantee that a program is free from 
+        race conditions or even deadlocks.One classic example is the semaphores are used is in the producer-consumer problem. They were invented by Edsger W. Dijkstra.<br />
+        On the other hand readers/writers locks is a similar concept that non only does it solve the producer-consumer problem but also adds the possiblity 
+        of priority and avoids starvations(for example writers starvation in readers/writer problem).In most of the times priority locks are implemented 
+        on top of semaphores.   
+        <a href="src/Mutexes.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+  
+      </ul>
+    </li>
         <br />
-		<li id="green"><span id="green_span">Small Scale Projects</span>
-			<ul class="parP">
-			<li><span class="mainP">Development of a program that finds all the prime numbers in a given range using <a href="http://en.wikipedia.org/wiki/Wilson's_theorem" class="projLinks">Wilson's theorem</a> through parallelism (C, Pthreads, OpenMP)</span><br/>
-				It's a priminality test according to wilson's theorem which states: a natural number n > 1 is a prime number if and only if
-				(n-1)! &#8801; -1(modn).Even though it is a parallelised version, Miller-Rabin priminality test is much faster. Mercurial revision control was used. Makefile is included.
-				<a href="src/Primes.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Design and implementation of parallel array multiplication using threads (C, Pthreads)</span><br/>
-				A rather classic implementation of parallel array multiplication. Perfect if you want to learn Pthreads. Developed with Mercurial. Makefile is included. 
-				<a href="src/ParallelArrayMul.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Development of a database of a university library.(Mysql, Wamp Server)</span><br/>
-				It includes E-R diagram, sql code and sql queries.  <a href="src/Databases.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			<li><span class="mainP">Development of a bash script that backups all files modified during specific time.(Bash scripting, linux commands)</span><br/>
-				It's a bash script that backups all the files modified in /home directory and compresses them in a .gz or .bz2 archive depending on the given command line arguments.  <a href="src/Backup.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
-			</li>
-			</ul>
-		</li>
-		</ul>
+    <li id="green"><span id="green_span">Small Scale Projects</span>
+      <ul class="parP">
+      <li><span class="mainP">Development of a program that finds all the prime numbers in a given range using <a href="http://en.wikipedia.org/wiki/Wilson's_theorem" class="projLinks">Wilson's theorem</a> through parallelism (C, Pthreads, OpenMP)</span><br/>
+        It's a priminality test according to wilson's theorem which states: a natural number n > 1 is a prime number if and only if
+        (n-1)! &#8801; -1(modn).Even though it is a parallelised version, Miller-Rabin priminality test is much faster. Mercurial revision control was used. Makefile is included.
+        <a href="src/Primes.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Design and implementation of parallel array multiplication using threads (C, Pthreads)</span><br/>
+        A rather classic implementation of parallel array multiplication. Perfect if you want to learn Pthreads. Developed with Mercurial. Makefile is included. 
+        <a href="src/ParallelArrayMul.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Development of a database of a university library.(Mysql, Wamp Server)</span><br/>
+        It includes E-R diagram, sql code and sql queries.  <a href="src/Databases.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      <li><span class="mainP">Development of a bash script that backups all files modified during specific time.(Bash scripting, linux commands)</span><br/>
+        It's a bash script that backups all the files modified in /home directory and compresses them in a .gz or .bz2 archive depending on the given command line arguments.  <a href="src/Backup.zip"><img src="images/d1.jpeg" style="width: 11px; height: 11px;" alt="image" /></a>
+      </li>
+      </ul>
+    </li>
+    </ul>
 </div>
     </section> <!--end section-->
 
@@ -267,7 +267,7 @@ function dispPubContent()
     </ul>
     </div>
 
-	</section>
+  </section>
 <?php
 }
 
@@ -292,7 +292,7 @@ function dispAboutContent()
                             appeared as a publication in <a href="http://mswimconf.com/2012/">MSWIM 2012</a> conference.</p>
 
 
-		<p class="info">In general, my intention is to solve <em>real world</em> problems using science, especially mathematics.
+    <p class="info">In general, my intention is to solve <em>real world</em> problems using science, especially mathematics.
                            I believe that behind every practical solution there is an extensively mathematical model that can
                            characterize its performance evaluation. I always tend to lie in between theoretical foundations of
                            computer science and software engineering for the implementation of these practical solutions.</p>
@@ -400,17 +400,17 @@ function unusedContent()
 {
 ?>
 
-      	<div class="clearfix says">
+        <div class="clearfix says">
         <figure class="marginRight"><img src="images/client_image_1.jpg" alt="Image" /></figure>
-		<blockquote>
-		<p class="par" >
-		My name is Filippos Vasilakis and I welcome you to my new personal website! I hope you enjoy your staying!
-		I am curently an undergraduate student in <a href="http://www.ceid.upatras.gr" class="links">Computer Engineering and Informatics</a>
-		at university of <a href="http://en.wikipedia.org/wiki/Patras" class="links">Patras</a>. The school requires 
-		5 years of study and I am currently on the 5th year. Checkout also my newly created <a href="blog/index.php" class="links">blog</a>!
-		</p>
-		<p>Filippos Vasilakis <span class="date"> Tuesday, 11 January 2011 </span></p>
-		</blockquote>
+    <blockquote>
+    <p class="par" >
+    My name is Filippos Vasilakis and I welcome you to my new personal website! I hope you enjoy your staying!
+    I am curently an undergraduate student in <a href="http://www.ceid.upatras.gr" class="links">Computer Engineering and Informatics</a>
+    at university of <a href="http://en.wikipedia.org/wiki/Patras" class="links">Patras</a>. The school requires 
+    5 years of study and I am currently on the 5th year. Checkout also my newly created <a href="blog/index.php" class="links">blog</a>!
+    </p>
+    <p>Filippos Vasilakis <span class="date"> Tuesday, 11 January 2011 </span></p>
+    </blockquote>
         </div>
 
         <h3>Languages</h3>
@@ -463,11 +463,11 @@ Tennis, Paintball, Open-Source, Music, Technology, Programming, Cinema
         </div>
 
       </div>
-       	<div class="clearfix"></div>
+        <div class="clearfix"></div>
         <h3>Nerdy Skills</h3>
         <ul class="skills">
-        	<li>Design <span class="bar_100"><span class="percent">100%</span></span></li>
-        	<li>HTML5 / CSS3 <span class="bar_90"><span class="percent">90%</span></span></li>
+          <li>Design <span class="bar_100"><span class="percent">100%</span></span></li>
+          <li>HTML5 / CSS3 <span class="bar_90"><span class="percent">90%</span></span></li>
             <li>Wordpress / CMS<span class="bar_50"><span class="percent">50%</span></span></li>
             <li>jQuery<span class="bar_70"><span class="percent">70%</span></span></li>
             <li>Search Engine Optimzation<span class="bar_60"><span class="percent">60%</span></span></li>
@@ -491,7 +491,7 @@ function dispContContent($report=NULL)
       <div id="reportPoint" class="wrapper">
         <h2>Get in Touch</h2>
             <ul class="social">
-            	<li class="website" title="website"><a href="http://fil.vasilak.is">Website</a></li>
+              <li class="website" title="website"><a href="http://fil.vasilak.is">Website</a></li>
                 <li class="github" title="github"><a href="https://github.com/vasilakis">Github</a></li>
                 <li class="bitbucket" title="bitbucket"><a href="https://bitbucket.org/vasilakis">BitBucket</a></li>
                 <li class="blog" title="blog"><a href="http://blog.fil.vasilak.is">Blog</a></li>
@@ -502,7 +502,7 @@ function dispContContent($report=NULL)
 
       
       <form action="index.php" method="post">
-      	<p><input type="text" name="name"  value="Your Name" id="name" onblur="if (this.value == ''){this.value = 'Your Name'; }" onfocus="if (this.value == 'Your Name') {this.value = '';}" onkeyup="suggestEmail();" /></p>
+        <p><input type="text" name="name"  value="Your Name" id="name" onblur="if (this.value == ''){this.value = 'Your Name'; }" onfocus="if (this.value == 'Your Name') {this.value = '';}" onkeyup="suggestEmail();" /></p>
         <p><input type="text" name="email" value="Your Email" id="email"  onblur="if (this.value == ''){this.value = 'Your Email'; }" onfocus="if (this.value == 'Your Email') {this.value = '';}" onkeyup="suggestEmail();" /></p>
         <p><input type="text" name="url" value="Your Site" id="url" onblur="if (this.value == ''){this.value = 'Your Site'; }" onfocus="if (this.value == 'Your Site') {this.value = '';}" /></p>
         <p><textarea rows="7" name="message" id="message" onblur="if (this.value == ''){this.value = 'Your Message'; }" onfocus="if (this.value == 'Your Message') {this.value = '';}" onkeyup="suggestEmail();" >Your Message</textarea></p>
@@ -576,9 +576,9 @@ function dispFooter()
 function mail_utf8($to, $subject = '(No subject)', $message = '', $header = '')
 {
 
-	$header_ = 'MIME-Version: 1.0' . "\r\n" . 'Content-type: text/plain; charset=UTF-8' . "\r\n";
-	$ret=mail($to, '=?UTF-8?B?'.base64_encode($subject).'?=', $message, $header_ . $header);
-	return $ret;
+  $header_ = 'MIME-Version: 1.0' . "\r\n" . 'Content-type: text/plain; charset=UTF-8' . "\r\n";
+  $ret=mail($to, '=?UTF-8?B?'.base64_encode($subject).'?=', $message, $header_ . $header);
+  return $ret;
 }
 
 
