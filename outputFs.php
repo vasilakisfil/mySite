@@ -82,34 +82,12 @@ function dispHomeContent()
 
       	<div class="clearfix says">
 
-		<p class="mcontent" >
-    Currrently, I am working on a new paper with Prof. 
-    <a href="http://www.cti.gr/RD1/nikole/">S. Nikoletseas</a> in the field of WSNs.
-    Specifically, our aim is to contrast a WSN
-    employing both data mules (mobile relays) and mobile rechargers with a WSN
-    equipped with a single mobile multi-entity which provides recharging and data muling on
-    demand. Our goal is, again, to provide a rigorous analysis of the performance in each scenario
-    and an adaptive algorithm that understands the underlying routing protocol and adjusts itself.
-		</p>
+    <p class="mcontent" >
+      Currently I am doing my masters in Network Services and Systems in KTH and
+      working as a web developer in <a href="http:www.kollegorna.se">Kollegorna</a> building some very interesting apps.
+      More to come soon ;)
+    </p>
 
-
-		<p class="mcontent" >
-    At the same time, I am studying Decentralized Social Networks which seem to have many
-    challenging open problems. However, I trust that these networks could provide us with
-    true anonymity, security and control over our data whith the vast user participation.
-		</p>
-
-		<p class="mcontent" >
-		Last but not least, in my free time, I am expanding the capabilities of
-    <a href="https://eventdb.herokuapp.com/" title="EventDB site">EventDB</a>, a centralized
-    (but soon decentralized) RESTFul OSN in which everyone can upload new
-    events or experiences. It is hosted in
-    <a href="https://github.com/vasilakis/EventDB">github</a>
-    in which everyone is welcomed to contribute given that
-    Test Driven Development is followed.
-		</p>
-
-      </div>
 <br /><br /><br /><br /><br /><br />
     </section> <!--end section-->
     
